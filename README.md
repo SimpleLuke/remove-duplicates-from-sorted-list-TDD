@@ -5,11 +5,12 @@ Given the head of a sorted linked list, delete all duplicates such that each ele
 @param -> linked list
 @return -> linked list
 
-| Input                    | Output                                  |
-| ------------------------ | --------------------------------------- |
-| 1 -> null                | 1 -> null                               |
-| 1 -> 2 -> null           | 1 -> 2 -> null                          |
-| 1 -> 1 -> null           | 1 -> null                               |
-| 1 -> 1 -> 2 -> null      | 1 -> 2 -> null                          |
-| 1 -> 1 -> 2 -> 2 -> null | 1 -> 2 -> null                          |
-| Not a linked list        | Error 'The input must be a linked list' |
+| Input                         | Output                                  |
+| ----------------------------- | --------------------------------------- |
+| 1 -> null                     | 1 -> null                               |
+| 1 -> 2 -> null                | 1 -> 2 -> null                          |
+| 1 -> 1 -> null                | 1 -> null                               |
+| 1 -> 1 -> 2 -> null           | 1 -> 2 -> null                          |
+| 1 -> 1 -> 2 -> 2 -> null      | 1 -> 2 -> null                          |
+| 1 -> 2 -> 2 -> 3 -> 3 -> null | 1 -> 2 -> 3 -> null                     |
+| Not a linked list             | Error 'The input must be a linked list' |
